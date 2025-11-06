@@ -1,0 +1,8 @@
+Action,Data,Expected Result
+Infoskop Monitor (IM) öffnen,,
+"# In IM zu Auswertungen navigieren
+# Bleaching-Cockpit öffnen
+# Alle drei ""Tabs"" prüfen
+## Potentialanalyse
+## aktueller Status
+## Beratung",,Unter den Auswertungen sind alle Checkboxen in einer Reihe ausgerichtet und wirken vertikal nicht verschoben

@@ -1,0 +1,7 @@
+Action,Data,Expected Result
+::LEA-Fenster öffnen und auf eine kleinere Größe anpassen,,Fenstergröße ist sichtbar verkleinert
+Mit gültigen Daten einloggen,"Benutzer: anwender, Passwort: user","Anmeldung erfolgreich, verkleinerte Fenstergröße bleibt erhalten"
+Abmelden im ::LEA,,"Login-Dialog erscheint, Fenstergröße bleibt unverändert"
+Erneut im ::LEA einloggen (mit gültigen Daten),,Fenstergröße ist weiterhin wie zuvor verkleinert und ändert sich nicht
+::LEA schließen,,::LEA wird beendet
+::LEA erneut starten und mit gültigen Daten einloggen,,Fenstergröße ist weiterhin wie zuvor angepasst und bleibt unverändert

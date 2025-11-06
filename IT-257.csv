@@ -1,0 +1,12 @@
+Action,Data,Expected Result
+Infoskop Monitor (IM) öffnen,,
+In IM zu Administration navigieren,,
+Im sich öffnenden Passwort-Dialogfenster anmelden,Passwort Eingeben für die eigene Infoskop-Base,
+Zum Menüpunkt 'infoskop-Base Update' navigieren,,
+Auf Button 'UPDATE MANUELL HINTERLEGEN' unten rechts klicken,Voraussetzung: 'infoskop-Base-5.0.0-Updater.exe' wurde heruntergeladen und genauso benannt,
+Updater auswählen und starten,Voraussetzung: der Updater heißt ‘infoskop-Base-x.x.x-Updater.exe’,"Updater startet automatisch, 'Ja' bestätigen, um Update-Prozess zu starten"
+Update-Prozess beobachten,,Während der Installation erscheint unten rechts auf dem Desktop ein Splashfenster mit 'Es wurden Updates für infoskop-Base gestartet.'
+Nach Abschluss des Update-Prozesses,,"Unten erscheint kurz ein Splashfenster mit 'Updates abgeschlossen', nachdem der Infoskop-Client gestartet wurde"
+IM erneut starten,,
+In Administration-Menüpunkt erneut anmelden,,
+Zum Menüpunkt 'infoskop-Base Update' navigieren,Voraussetzung: 'infoskop-Base-5.0.0-Updater.exe' wurde installiert und es handelte sich und die offizielle infoskop-Base Version ist die 4.3.0. Die Werte für 5.0.0 und 4.3.0 selbstverständlich variabel.,"Als 'installierte Version' wird 5.0.0 angezeigt, die 'Aktuellste Version' zeigt 4.3.0"

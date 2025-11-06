@@ -1,0 +1,11 @@
+Action,Data,Expected Result
+Eine frische Installation von infoskop-Base durchführen,,"Im Installationspfad '.../infoskop-Base/Programm/' befinden sich genau zwei MSI-Dateien: 'Bonjour64.msi' und 'Bonjour64Bit-V3.1.0.1.msi', keine weiteren
+
+!xray-attachment://564896b8-a707-42d4-874f-0125ae86a8d9|width=795,height=88!
+
+"
+Ein Update von infoskop-Base <= 4.3.1 auf eine höhere Version durchführen,,"Im Installationspfad '.../infoskop-Base/Programm/' befinden sich drei MSI-Dateien: 'Bonjour64.msi', 'Bonjour64Bit-V3.1.0.1.msi' sowie zusätzlich 'Bonjour32Bit-V3.1.0.1.msi' (Überbleibsel aus älteren Installationen)
+
+!xray-attachment://6dc54130-cdef-4d62-89d6-d15b1cae19c5|width=674,height=97!
+
+"

@@ -1,0 +1,15 @@
+Action,Data,Expected Result,Attachments
+::LEA nicht installiert,,"Wenn ::LEA nicht aktiviert ist, sollte im infoskop-Client kein Eintrag für ::LEA sichtbar sein
+
+!xray-attachment://589ddbe8-5cae-48f1-9efc-ed3d65bb68d2|width=261,height=292!
+
+",https://synmedico.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/attachment?ac.id=589ddbe8-5cae-48f1-9efc-ed3d65bb68d2
+Wenn ::LEA aktiviert wurde und infoskop-Base sowie infoskop-Client neu gestartet wurden,::LEA Installationsanleitung (offizielle freigabe noch nicht erteilt zum 24.09.2025),"Im infoskop-Client erscheint ein neuer Eintrag namens 'Leistungserfassung (::LEA)'
+
+!xray-attachment://dab8c1f9-6b69-4736-bfd8-a8d75fd44644|width=269,height=317!",https://synmedico.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/attachment?ac.id=dab8c1f9-6b69-4736-bfd8-a8d75fd44644
+Auf 'Leistungserfassung (::LEA)' im infoskop-Client klicken,,"::LEA öffnet sich in einem eigenen Fenster, ähnlich wie infoskop-Monitor, und ist getrennt vom infoskop-Monitor nutzbar
+
+!xray-attachment://7f6affd7-5c2b-4251-a4a7-615ff2a39adb|width=1642,height=1084!
+
+",https://synmedico.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/attachment?ac.id=7f6affd7-5c2b-4251-a4a7-615ff2a39adb
+Mehrach öffnen von ::LEA oder IM nicht möglich,,,

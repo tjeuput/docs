@@ -1,0 +1,5 @@
+Action,Data,Expected Result
+Infoskop Monitor (IM) öffnen,,
+In IM zu Postausgang navigieren,,
+Nachricht mit Link oder QR-Code auswählen und öffnen,"Nicht auf das Icon 'erneut senden' klicken, sondern direkt die Nachricht öffnen",
+In der geöffneten Nachricht einen verlinkten QR-Code anklicken,,Es passiert entweder nichts oder der Link öffnet sich in einem externen Browser. Innerhalb von IM darf sich das Formular nicht öffnen.

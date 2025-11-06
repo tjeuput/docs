@@ -1,0 +1,5 @@
+Action,Data,Expected Result
+infoskop-Base im Pfad config.dat unter [server] den Wert enabledeletion=1 setzen und infoskop-Client neu starten,"{noformat}[server]
+enabledeletion=1{noformat}","In infoskop Monitor → Patientenliste wird neben den Patienten ein 'X'-Icon angezeigt, womit Patienten und Patientendaten gelöscht werden können."
+infoskop-Base im Pfad config.dat unter [server] den Wert enabledeletion=0 setzen und infoskop-Client neu starten,"{noformat}[server]
+enabledeletion=0{noformat}","In infoskop Monitor → Patientenliste wird neben den Patienten kein 'X'-Icon angezeigt, die Möglichkeit zum Löschen von Patienten oder Patientendaten existiert nicht."

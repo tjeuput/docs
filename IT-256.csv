@@ -1,0 +1,5 @@
+Action,Data,Expected Result
+Infoskop Monitor (IM) öffnen,,
+In IM zu Auswertungen navigieren,,
+PA-Cockpit öffnen,,"Im Titelbereich ist ein Icon links neben dem Titel sichtbar, vorzugsweise wie im Menü von IM"
+Bleaching-Cockpit öffnen,,"Im Titelbereich ist ein Icon links neben dem Titel sichtbar, vorzugsweise wie im Menü von IM"

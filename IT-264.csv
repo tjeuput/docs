@@ -1,0 +1,11 @@
+Action,Data,Expected Result
+"Einleitender ""*Test-Details*"" Text oben lesen bitte (gilt nicht für Entwickler)",,
+Infoskop Monitor (IM) öffnen,,
+Im WYSIWYG-Editor ein Bild per Drag & Drop hinzufügen,,
+Im WYSIWYG-Editor ein Bild über das Landschaftsfoto-Icon hinzufügen,,
+Bildgröße variieren,"50px, 75px, Originalgröße, benutzerdefinierte Größe über Popup-Menü oder Ziehen an Ecken",Größe ändert sich
+"Bild mit Link versehen, bearbeiten, entfernen",,"Links lassen sich hinzufügen, verschieben ohne Verlust, bearbeiten und korrekt entfernen (Icon mit x sichtbar)"
+Bilder im Text verschieben (per Drag & Drop),,Verknüpfte Links bleiben erhalten
+E-Mails mit unterschiedlichen Inhalten erstellen. Keativität ist gefragt.,"Nur Bilder; Bilder + Texte mit verschiedenen Formatierungen (Größe, Farbe, Listen, unterstrichen, hoch-/tiefgestellt, durchgestrichen, Platzhalter, Links, zentriert/links/rechts ausgerichtet); Bilder mit Formularlinks; E-Mails mit Anhängen (PDF, Dokumente)",
+E-Mails/Vorlagen versenden und Darstellung prüfen,,"Bilder und Formatierungen werden korrekt dargestellt in verschiedenen Clients (iOS, Android, PC, Mac, Webmail, verschiedene Provider)"
+"Schritte in folgenden Bereichen wiederholen: Administration -> Einstellungen -> Onlineformulare -> Systemvorlagen, Administration -> Einstellungen -> Onlineformulare -> Verschlüsselung, Patientenliste -> E-Mail an Patienten, Posteingang -> Antwortfunktion (Icon oben und zweites Icon unten links), Postausgang -> gesendete Nachricht öffnen und mit Icon 'erneut senden', Dokumente-Menüpunkt -> Mail-Icon, Auswertungen -> PA-Cockpit, Auswertungen -> Bleaching-Cockpit",,"In allen Bereichen funktioniert das Einfügen, Bearbeiten, Verschieben und Versenden von Bildern im WYSIWYG-Editor wie beschrieben"

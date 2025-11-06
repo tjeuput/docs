@@ -1,0 +1,18 @@
+Action,Data,Expected Result
+"In infoskop-Base-Pfad/Programm/config.dat in der [server]-Gruppe folgenden Wert ergänzen: *restartWhenUnresponsive*=1, anschließend infoskop-Base neu starten
+
+{noformat}[server]
+restartWhenUnresponsive=1{noformat}",,infoskop-Base läuft normal nach Neustart
+Dateien '*DEKC-23061201Fotodokumentation_1.pdf' und 'DEKC23061201-Fotodokumentation_1.xml'* aus _info-860.zip_ in den Dokumentpfad für Externe Daten (Pfad einzurichten oder zu finden unter IM → Administration → Einstellungen → Externe Daten → Dokumentpfad) entpacken,[info-860.zip|xray-attachment://06e0d1f8-bed3-48f4-897b-d17295ba3df6],Datei 'DEKC--23061201--Fotodokumentation_1.pdf' erscheint in der Formular-Schublade der infoskop App im passenden WLAN-Ordner
+infoskop App Version 6.1.6 mit infoskop-Base 5.0.0 verbinden und in Patientenliste einen Patienten laden (vorzugsweise mit E-Mail-Adresse),Zumindest darf die App nicht die Lösung QS-13 bzw. INFO-860 beinhalten. Bis App Version 6.1.6 ist es sicher nicht gelöst,Patient wird in der App geladen
+In der App das Formular 'DEKC--23061201--Fotodokumentation_1.pdf' öffnen,,"Formular 'MKG AM Zigelturm Formula' wird angezeigt mit Textfeld (Nachname, Vorname, Geburtsdatum des Patienten) und vier Rahmen (ein Rahmen mit Bild, drei mit Kamera-Icon)"
+"In der App auf die drei Kamera-Icons tippen, um drei zusätzliche Bilder aufzunehmen",,Alle drei Rahmen enthalten aufgenommene Bilder
+In der App auf den 'PDF'-Button tippen,,PDF des Formulars wird erstellt
+In der App auf den 'Mailen'-Button tippen,,"Mail-Dialog öffnet sich mit vorausgewählter Patient-E-Mail-Adresse (falls vorhanden, sonst manuelle Eingabe nötig)"
+Eine beliebige E-Mail-Vorlage auswählen,,Vorlage wird in den Mail-Dialog übernommen
+Auf 'Senden'-Button im Mail-Dialog tippen,,Wartesymbol mit Text 'Daten werden gesendet. Bitte warten …' erscheint; nach einigen Sekunden erscheint Dialog 'Infoskop-Base nicht erreichbar'
+Während der 'Infoskop-Base nicht erreichbar'-Meldung in infoskop Monitor prüfen,,Infoskop-Base ist nicht erreichbar
+30 Sekunden warten,,"Bei Base Version >= 5.0.0 fängt sich die Base automatisch, Neustart erfolgt über Starter. Bei Base Version < 5.0.0 bleibt Base hängen und muss manuell neu gestartet werden"
+"Bei Base Version >= 5.0.0 prüfen, ob neben config.dat auch eine report.dat vorhanden ist",,"Datei report.dat liegt im Base-Programmordner
+
+Hinweis: Die report.dat ist Teil des Logcheck, der aber ggf. erst am nächsten Tag aktuell und damit prüfbar ist!"

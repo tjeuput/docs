@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "d27adc629f1d922b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b769e96020b1ad6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca292ea89278c82e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AZUBI-399.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AZUBI-399"
+            }
+          },
+          {
+            "id": "c3a8bed93cc16ad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReleaseNote.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ReleaseNote"
+            }
+          },
+          {
+            "id": "cf5e57eb09275240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReleaseNote.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ReleaseNote"
+            }
+          },
+          {
+            "id": "381b802bd4a18965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IM - Zugriff auf Onlineformular-Einstellungen möglich, obwohl Onlineformulare deaktiviert sind.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IM - Zugriff auf Onlineformular-Einstellungen möglich, obwohl Onlineformulare deaktiviert sind"
+            }
+          },
+          {
+            "id": "8320ccfce11c5877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WYSIWYG-Editor (CK5-Editor in IM) die Funktion erweitert, Bilder per Drag & Drop hinzuzufügen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WYSIWYG-Editor (CK5-Editor in IM) die Funktion erweitert, Bilder per Drag & Drop hinzuzufügen"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c161907f268ff99",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1475e2ba0200960",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04a9570cbd2ef6e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9fe0f0a1ac649c91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ecd8025e1ec8caaf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "faf3a5852027dc43",
+    "type": "split",
+    "children": [
+      {
+        "id": "a59443f28b79e30e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf45bacb01f51fe3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ReleaseNote.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ReleaseNote"
+            }
+          },
+          {
+            "id": "dff2b6b25777667e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ReleaseNote.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ReleaseNote"
+            }
+          },
+          {
+            "id": "12101c8604579d6b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0331df3c8e5e7a31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ReleaseNote.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ReleaseNote"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c3a8bed93cc16ad5",
+  "lastOpenFiles": [
+    "IT-291.csv",
+    "IT-287.csv",
+    "IT-281.csv",
+    "IT-279.csv",
+    "IT-293.csv",
+    "IT-257.csv",
+    "IT-296.csv",
+    "IT-300.csv",
+    "IT-294.csv",
+    "IT-308.csv",
+    "IT-301.csv",
+    "AZUBI-399.md",
+    "IM - Zugriff auf Onlineformular-Einstellungen möglich, obwohl Onlineformulare deaktiviert sind.md",
+    "ReleaseNote.md",
+    "IM - fehlende Icons in Auswertungsbreich.md",
+    "().md",
+    "Base 4.2.0_Unerwünschter Linkverhalten im neuen CKEditor 5 bei E-Mail-Vorlagen.md",
+    "Base Updater 4 - IM – Link generieren – Link-Tag auf der ganze Vorschaufläche.md",
+    "Test - Base Update 4 - IM Link Link generieren – Link-Tag auf der ganze Vorschaufläche.md",
+    "WYSIWYG-Editor (CK5-Editor in IM) die Funktion erweitert, Bilder per Drag & Drop hinzuzufügen.md",
+    "Test - WYSIWYG-Editor und E-Mail-Funktionalität.md",
+    "(AZUBI-424).md"
+  ]
+}

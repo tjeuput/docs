@@ -1,0 +1,25 @@
+Action,Data,Expected Result,Attachments
+infoskop-Client öffnen (bei aktiviertem ::LEA),,"Ein neuer Menüeintrag „Leistungserfassung (::LEA)"" ist sichtbar
+
+!xray-attachment://248462f9-4a97-4f6d-9106-dd5c19529b6a|width=248,height=323!
+
+",https://synmedico.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/attachment?ac.id=3ea1a532-5991-408b-b24b-2284556ba719 | https://synmedico.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/attachment?ac.id=248462f9-4a97-4f6d-9106-dd5c19529b6a
+::LEA über den neuen Menüeintrag starten,,"Ein Fenster öffnet sich (ähnlich wie infoskop-Monitor) mit einem Login-Dialog
+
+!xray-attachment://4b0c5dda-8b8a-4515-858b-b0432d1489a1|width=1659,height=1301!
+
+",https://synmedico.atlassian.net/plugins/servlet/ac/com.xpandit.plugins.xray/attachment?ac.id=4b0c5dda-8b8a-4515-858b-b0432d1489a1
+Im Login-Dialog „Schließen“ anklicken,,::LEA schließt sich,
+::LEA erneut öffnen und ohne Eingabe auf „Einloggen“ klicken,,Login ist nicht möglich. Unter dem Feld „Benutzername“ erscheint der Hinweis „wird benötigt“,
+Als Benutzer „anwender“ mit Passwort „user“ einloggen,"Username: anwender
+
+Passwort: user",Anmeldung erfolgreich. Man ist als „anwender“ angemeldet und kann ::LEA verwenden,
+"Erneut versuchen, sich mit falschen Daten einzuloggen (beliebige Eingaben)",,"Ein roter Banner erscheint von unten mit der Information „falsche Logindaten“, Login nicht möglich",
+Mehrere ::LEA-Fenster starten,,"Nicht möglich, es darf nur ein ::LEA-Fenster gleichzeitig offen sein",
+infoskop-Monitor starten,,::LEA bleibt weiterhin bedienbar,
+Zwischen infoskop-Monitor und ::LEA wechseln und abwechselnd bedienen,,Beide Anwendungen sind gleichzeitig bedienbar,
+Eine der beiden Anwendungen (infoskop-Monitor oder ::LEA) schließen,,Die jeweils andere Anwendung bleibt offen,
+"# ::LEA schließen wenn noch nicht geschloßen (mit angemeldeter Benutzer).
+# ::LEA neu starten 
+
+",,Es erfolgt keine automatische Anmeldung – Benutzer muss sich erneut einloggen,

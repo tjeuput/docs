@@ -1,0 +1,3 @@
+Action,Data,Expected Result
+Ein System mit Evident Version 6 (nach Major-Update März 2025) und infoskop-Base 4.3.1 aufsetzen,,"Die erweiterte Schnittstelle zwischen Evident und infoskop funktioniert nicht zuverlässig automatisch, Konfiguration muss manuell durch Technik/L2 erfolgen"
+Ein System mit Evident Version 6 und infoskop-Base 5.0.0 aufsetzen oder Updaten,QS-218,"Die erweiterte Schnittstelle zwischen Evident und infoskop automatisch eingerichtet, keine manuelle Nachkonfiguration notwendig"

@@ -1,0 +1,5 @@
+Action,Data,Expected Result
+Infoskop Monitor (IM) öffnen,,
+In IM zu Administration → Modulkonfiguration → ::ORA navigieren,,"prüfen, dass ::ORA nicht eingerichtet ist (kein Eintrag vorhanden)"
+In IM zum Posteingang navigieren und bei einer eingegangenen Nachricht auf das Antwort-Icon in der tabellarischen Ansicht klicken,,Antworten ist nicht möglich; die Funktion ist deaktiviert
+Eine Nachricht im Posteingang öffnen und unten links das zweite Antwort-Icon anklicken,,Antworten ist nicht möglich; die Funktion ist deaktiviert

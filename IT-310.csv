@@ -1,0 +1,4 @@
+Action,Data,Expected Result
+::LEA öffnen und anmelden,Benutzername 'anwender' und Passwort 'user'Benutzername 'anwender' und Passwort 'user',"Anmeldung erfolgreich, Benutzer ist als 'anwender' eingeloggt"
+Einen beliebigen Patienten auswählen,,Neue Behandlugssitzung gestartet ohne Leistungen
+Unter dem Punkt 'Allgemein' eine Nachricht schreiben wollen,,"Da eine neue Behandlung gestartet wurde und keine Leistung erfasst wurde für diese Sitzung, ist in dieser Sitzung keine Nachricht im Bereich 'Allgemein' vorhanden"

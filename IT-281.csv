@@ -1,0 +1,24 @@
+Action,Data,Expected Result
+"Infoskop-Client neu starten, nachdem in der config.dat (Pfad: infoskop-Base/Programm/config.dat) unter der Gruppe [server] der Eintrag 'enabledeletion=1' hinzugefügt wurde","{noformat}[server]
+enabledeletion=1{noformat}",
+"Infoskop Monitor (IM) öffnen, automatisch in Patienten-Menü landen",,
+In der tabellarischen Patientenliste das neue X-Icon (3. Stelle von rechts) bei einem Patienten anklicken,,
+"Im erscheinenden Dialogfenster 'Daten löschen von Nachname, Vorname' prüfen, dass folgende Elemente vorhanden sind: Checkbox 'Gesamter Patientendatensatz' (aktiviert/deaktiviert die drei anderen), Checkboxen 'Dokumente', 'Anamnesedaten', 'Onlinedaten', ein Texteingabefeld 'Nur Daten bis einschließlich' mit Date-Picker-Icon links und Button 'HEUTE' rechts",,
+"Prüfen, dass der Anwenden-Button nur aktiv wird, wenn mindestens eine der Checkboxen ausgewählt ist",,
+"Wenn ""Gesamter Patientendatensatz""-Checkbox aktiviert wird
+
+",,"* ist Datums-Feld nicht bedienbar
+* wenn Werte vorhanden, werden diese gelöscht und oder komplett ignoriert
+* Mauszeiger ist für das ganze Feld ein ""Verbotsschild""
+
+"
+Datum manuell in das Eingabefeld eintragen,,"Nur gültige und existierende Datumswerte werden akzeptiert (z. B. '15.09.2025'), ungültige Eingaben wie '50.20.1655' blockieren den Anwenden-Button"
+Im Datumfeld auf den Button 'HEUTE' klicken,,Das heutige Datum im Format tt.mm.jjjj wird automatisch eingefügt
+Im Datumfeld ein Datum in der Zukunft auswählen,,"Zukünftige Daten werden nicht akzeptiert, Anwenden-Button bleibt deaktiviert"
+Im Dialog auf 'Abbrechen' klicken,,"Der Dialog schließt sich, es werden keine Änderungen oder Löschungen durchgeführt"
+Im Dialog eine oder mehrere Checkboxen wählen und 'Anwenden' klicken,,"Es erscheint ein zweites Bestätigungsfenster 'Bitte bestätigen Sie das Löschen der Daten von Vorname Nachname' mit Hinweistext 'Diese Handlung ist destruktiv. Gelöschte Daten können *nicht* wiederhergestellt werden. Sind Sie sicher, dass die ausgewählten Daten gelöscht werden sollen?'"
+Im Bestätigungsdialog auf 'Abbrechen' klicken,,"Löschvorgang wird abgebrochen, keine Daten gelöscht"
+Im Bestätigungsdialog auf 'Anwenden' klicken,,"* Ausgewählte Daten des Patienten werden gelöscht und können nicht wiederhergestellt werden.
+* Wurde kein Datum ausgewählt, werden alle Daten bis einschließlich heute gelöscht.
+
+"

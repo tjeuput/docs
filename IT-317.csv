@@ -1,0 +1,12 @@
+Action,Data,Expected Result
+Im Patienten-Menüpunkt 'E-Mail an Patienten' das Mail-Icon betrachten,,"Neben dem Brief-Icon ist ein Pfeil nach unten sichtbar
+
+!xray-attachment://f76ba1e0-4df1-439c-b8cb-69debe30f684|width=99,height=48!"
+Auf das Brief-Icon (ohne den Pfeil) klicken,,E-Mail-Fenster öffnet sich ohne Vorlage
+Auf den Pfeil neben dem Mail-Icon klicken,,"Pfeil wechselt die Richtung nach oben und ein Dropdown mit Vorlagen öffnet sich
+
+!xray-attachment://8ae23aef-db06-484e-96d1-a20abf4b2ea7|width=298,height=507!"
+Dropdown wieder schließen (erneut auf den Pfeil klicken oder außerhalb klicken),,Pfeil zeigt wieder nach unten und Dropdown ist geschlossen
+Im Dokumente-Menüpunkt ein Dokument auswählen und das Mail-Icon betrachten,,"Neben dem Brief-Icon ist ein Pfeil nach unten sichtbar, Verhalten identisch wie im Patienten-Menüpunkt"
+Im Auswertungen-Bereich 'PA-Cockpit' das Mail-Icon mit Pfeil nutzen,,"Neben dem Brief-Icon ist ein Pfeil nach unten sichtbar, beim Klick auf Pfeil öffnet sich das Dropdown mit Vorlagen, Pfeil wechselt die Richtung"
+Im Auswertungen-Bereich 'Bleaching-Cockpit' das Mail-Icon mit Pfeil nutzen,,"Neben dem Brief-Icon ist ein Pfeil nach unten sichtbar, beim Klick auf Pfeil öffnet sich das Dropdown mit Vorlagen, Pfeil wechselt die Richtung"

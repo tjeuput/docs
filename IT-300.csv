@@ -1,0 +1,114 @@
+Action,Data,Expected Result
+infoskop-Base 5.0.0 installieren,,infoskop-Base 5.0.0 ist erfolgreich installiert
+IT-297 Anleitung folgen,IT-297,SmartHL7 Sender ist installiert und funktionsfähig
+IT-299 Vorbereitung durchführen,IT-299,Ordner 'HL7Server' befindet sich im Hauptordner der infoskop-Base (…/infoskop-Base/HL7Server/)
+Optional: IT-298 Vorbereitung durchführen,IT-298,Datei 'infoskop-adt-test 1.hl7' liegt bereits im HL7Server-Ordner vor
+config.dat im Hauptordner der infoskop-Base prüfen,,"Inhalt entspricht Bestandskunden-Situation, z. B.:
+
+
+{noformat}[hl7]
+enabled=1
+processName=HL7Server.exe
+processID=8944
+
+[StartApps]
+count=1
+[StartApp1]
+path=C:\infoskop-Base\HL7Server\HL7Server.exe{noformat}
+
+{color:#bf2600}*→ kein Eintrag 'smartHandling=1'*{color}"
+config.dat im HL7Server/programm Ordner prüfen,,{color:#bf2600}*Es existiert zunächst kein Eintrag 'useChilkatSockets=1'*{color}
+infoskop-Base beenden (Dienst oder lokaler Prozess beenden) und Starter oder Dienst erneut starten (kein Neustart!),,"Im Task-Manager ist nun 'HL7Server' als Prozess sichtbar
+
+!xray-attachment://956bd927-fb3b-4cbf-9407-b0438421b1f9|width=758,height=197!
+
+"
+Letztes HL7-Log unter …/infoskop-Base/HL7Server/HL7Log/ öffnen,,"Im Log ist die Zeile 'Server gestartet auf Port: XXXX' vorhanden (XXXX = Portnummer)
+
+{noformat}11:44:53: IPC_SERVER gestartet mit Namen: 7788
+11:44:53: Using Chilkat Sockets
+11:44:53: Server gestartet auf Port: 7711
+11:44:53: StartListening_chilkat
+11:46:36: IPC CLOSE
+11:46:38: Server wird geschlossen - close and delete{noformat}
+
+"
+SmartHL7 Message Sender öffnen,,"Fenster 'SmartHL7 Message Sender' erscheint
+
+!xray-attachment://29ad18cf-ac8d-43c5-8df2-4129bcfc43db|width=751,height=575!
+
+"
+Im SmartHL7 Message Sender unter 'Receiver' die zuvor im Log ermittelte Portnummer eintragen,,"Port ist korrekt konfiguriert
+
+!xray-attachment://d011b782-e405-4fd2-8e78-bc4969c8b67d|width=751,height=575!
+
+"
+Per Drag & Drop die Datei 'infoskop-adt-test 1.hl7' (aus IT-298 oder HL7Server-Ordner) in den SmartHL7 Message Sender ziehen,,"Fenster mit HL7-Inhalt ist sichtbar
+
+!xray-attachment://00fdb91b-1c44-41ed-bdfa-ecdb8e43614b|width=751,height=577!
+
+"
+Im SmartHL7 Message Sender auf 'Start'-Knopf drücken,,"Bei Erfolg färbt sich das Fenster blau
+
+!xray-attachment://7e4146d3-d48e-4311-9aec-5cb989f10e15|width=755,height=576!
+
+{color:#bf2600}bei Fehler rot (in diesem Fall Port und Schritte überprüfen){color}
+
+!xray-attachment://6b3743a3-9c95-41ca-b55c-e54ce2edbe3d|width=756,height=572!
+
+"
+Erneut HL7-Log unter …/infoskop-Base/HL7Server/HL7Log/ prüfen,,"{noformat}14:40:46: IPC_SERVER gestartet mit Namen: 7788
+14:40:46: Using Chilkat Sockets
+14:40:46: Server gestartet auf Port: 7711
+14:40:46: StartListening_chilkat
+16:15:25: sBuffer:
+MSH|^~\&|RIS KIS|RIS KIS Firma|infoskop|synMedico|20231103064517||ADT^A08|2042|P|2.3.1|||AL|NE||8859/1
+EVN|A08|20231103064517||||20231103064515
+PID|1|10000004^^^RIS^PI|10000004^^^RIS^PI||Bender^Davin^^^^Dr.||19890719|M|M||WilhemlshÃ¶her Allee 300^^Kassel^^34131^D||05617664060^^^davin.bender@synmedico.de|+4956176640610||||||||||||||||N
+PV1|1||nurse^^^specunit||||behandlerid^behandlername|4^hausarzt_nachname^hausarzt_vorname^^^Dr. med^^^ris auth~007257101^Ã¼berweiser_nachname^Ã¼berweiser_vorname^^^^^^SEAL^^^^DN||||||21|||||caseno^^^ris auth^VN|finClas||||KV
+IN1|1||103480007^^^^NII~72601^^^^NIIP|krankenkasse|krankenkasse|||||||20150401|||MRFP|||||||||||||||||||||egk|^TP||||||||||||egk
+
+16:15:25: Read Message:15
+16:15:25: Start writing:16
+16:15:25: no merge active
+16:15:25: MSH|^~\&|RIS KIS|RIS KIS Firma|infoskop|synMedico|20231103064517||ADT^A08|2042|P|2.3.1|||AL|NE||8859/1
+EVN|A08|20231103064517||||20231103064515
+PID|1|10000004^^^RIS^PI|10000004^^^RIS^PI||Bender^Davin^^^^Dr.||19890719|M|M||WilhemlshÃ¶her Allee 300^^Kassel^^34131^D||05617664060^^^davin.bender@synmedico.de|+4956176640610||||||||||||||||N
+PV1|1||nurse^^^specunit||||behandlerid^behandlername|4^hausarzt_nachname^hausarzt_vorname^^^Dr. med^^^ris auth~007257101^Ã¼berweiser_nachname^Ã¼berweiser_vorname^^^^^^SEAL^^^^DN||||||21|||||caseno^^^ris auth^VN|finClas||||KV
+IN1|1||103480007^^^^NII~72601^^^^NIIP|krankenkasse|krankenkasse|||||||20150401|||MRFP|||||||||||||||||||||egk|^TP||||||||||||egk
+
+
+
+
+16:15:25: Patient übergeben: ID: 10000004,Name:Bender, Davin
+16:15:25: Send to destination(1):31
+16:15:25: prepare ACK Socket:32
+16:15:25: start ACK Message:32
+16:15:25: End ACK Message:32
+16:15:25: Socketis OK sending.33
+16:15:25: After sending:35
+16:15:25: Socket nicht mehr connected - break and delete
+16:15:25: exit_failure{noformat}
+
+"
+"config.dat im Hauptordner der infoskop-Base erneut anpassen
+
+","hl7/smartHandling=1
+
+{noformat}[hl7]
+enabled=1
+smartHandling=1{noformat}
+
+",In der config.dat ist nun ein Block [hl7] mit zusätzlich smartHandling=1 eingetragen
+config.dat im HL7Server/programm Ordner erneut anpassen,"server/useChilkatSockets=1
+
+{noformat}[server]
+useChilkatSockets=1{noformat}
+
+",In der config.dat unter [server] ist useChilkatSockets=1 eingetragen
+infoskop-Base beenden (Dienst oder lokaler Prozess beenden) und Starter oder Dienst erneut starten (kein Neustart!),,"Im Task-Manager ist weiterhin genau ein einziger HL7Server-Prozess sichtbar und bleibt stabil bestehen
+
+!xray-attachment://a3a0f4a9-70b7-4983-bbbf-5263a9728bee|width=758,height=197!
+
+"
+Optional: Schritte 10–12 erneut durchführen,,HL7-Daten erneut erfolgreich über den SmartHL7 Message Sender geprüft und im Log sichtbar

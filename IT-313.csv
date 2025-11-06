@@ -1,0 +1,10 @@
+Action,Data,Expected Result
+::LEA starten und anmelden,"Benutzername: anwender, Passwort: user",Angemeldet als 'anwender'
+Beliebigen Patienten auswählen und merken,,"Leere neue Behandlungsübersicht im Punkt 'Allgemein' sichtbar, ein Behandler ist vorausgewählt"
+"Falls kein Behandler vorausgewählt ist, einen aus der Dropdown-Liste auswählen",,Ein Behandler ist eingetragen
+In der Behandlungsübersicht umschauen,,Der zuletzt ausgewählte Patient hat einen Behandler
+Einen weiteren Patienten auswählen und merken,,Behandlungsübersicht zeigt im Punkt 'Allgemein' den zuvor ausgewählten Behandler vorausgewählt
+In der Behandlungsübersicht umschauen,,Der zuletzt ausgewählte Patient zeigt in der tabellarischen Darstellung unter 'Behandler' den passenden Behandlernamen
+Einen weiteren Patienten auswählen und merken,,Behandlungsübersicht zeigt im Punkt 'Allgemein' den zuvor ausgewählten Behandler vorausgewählt
+"Einen Zahn auswählen (z. B. #16) und auf 'Fortfahren' klicken, anschließend auf 'Leistung erfassen' klicken und aus einer beliebigen Leistungsgruppe, Leistungsart und Leistung wählen, dann 'Auswahl bestätigen' tippen",,"Eine Leistung für Zahn 16 ist erfasst, gekennzeichnet mit einem roten Punkt in der Behandlungssitzung"
+Zur Behandlungsübersicht wechseln,,In der tabellarischen Liste unter 'Behandler' steht der Name des Behandlers – es darf **kein** Eintrag wie {#} erscheinen

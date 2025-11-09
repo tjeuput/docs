@@ -1,349 +1,211 @@
-# Update: Infoskop + Base 5.0 – Was ist neu, was ist verbessert?
+# infoskop-Base Update 5.0
 
-**Für Anwender und Kunden: Die wichtigsten Neuerungen und Verbesserungen im Überblick**
 
----
+Das neue Update 5.0 wird [TT.MM.JJJJ] veröffentlicht und im iMonitor zur Verfügung gestellt.
 
-## 🆕 Neue Funktionen
+Wir arbeiten auf Hochtouren, auch den Newsletter, "What's New Screen" sowie Change Log für iMs im Portal bereitzustellen.
 
-### 1. **::LEA – Neues Produkt für Leistungserfassung**
+## Was gibt es Neues?
 
-**Was ist neu:**
-- Infoskop::LEA steht ab sofort zur Verfügung
-- Die Lizenzierung erfolgt automatisch bei korrekter Einrichtung
-- Vollständige Integration in den Infoskop-Client
+### ::LEA – Neues Produkt für Leistungserfassung
 
-**Nutzen für Sie:**
-Vereinfachte Erfassung und Verwaltung von Leistungen direkt im System.
+Mit infoskop::LEA steht ab sofort ein komplett neues Produkt zur Verfügung: die **Leistungserfassung**.
 
-[missing: no previous state mentioned]
+Die Lizenzierung für ::LEA erfolgt automatisch, sobald die Einrichtung korrekt abgeschlossen ist. Das neue Tool ist vollständig in den infoskop-Client integriert und ermöglicht eine vereinfachte Erfassung und Verwaltung von Leistungen direkt im System.
+
+Bei längeren Ladezeiten der Webframes – etwa beim Öffnen des infoskop-Monitors oder ::LEA – erhalten Nutzer nun eine **„Bitte warten …"-Anzeige**, die den Prozess transparent macht und sicherstellt, dass das System aktiv arbeitet.
 
 ---
 
-### 2. **Flexible Bildanpassung in E-Mails und Vorlagen**
+### Flexible Bildanpassung in E-Mails und Vorlagen
 
-**Was ist neu:**
-- Anwender können nun die Größe eingebetteter Bilder flexibel anpassen
-- Anpassung per Drag & Drop möglich
-- Voreingestellte Größen (50px, 75px, Originalgröße) verfügbar
-- Benutzerdefinierte Dimensionen einstellbar
-- Links an Bildern können einfach hinzugefügt, bearbeitet und entfernt werden
+Die Arbeit mit Bildern in E-Mail- und Vorlagentexten wurde deutlich verbessert.
 
-**Nutzen für Sie:**
-Bessere Gestaltung von E-Mail- und Vorlagentexten mit mehr Kontrolle über das Layout.
+Anwender können nun **die Größe eingebetteter Bilder flexibel anpassen** – wahlweise per Drag & Drop, durch Auswahl voreingestellter Größen (50px, 75px, Originalgröße) oder durch Eingabe benutzerdefinierter Dimensionen.
 
-[missing: no previous state mentioned]
+Zusätzlich können **Links an Bildern einfach hinzugefügt, bearbeitet und entfernt werden**.
+
+Dies ermöglicht eine deutlich bessere Gestaltung von E-Mail- und Vorlagentexten mit mehr Kontrolle über das Layout.
 
 ---
 
-### 3. **Selbstüberwachung und automatischer Neustart (Starter.exe)**
+### Granulare Kontrolle bei der Löschung von Patientendaten
 
-**Was ist neu:**
-- Der Starter.exe überwacht automatisch die Funktionsfähigkeit der Base
-- Bei Unresponsiveness wird der Service automatisch neu gestartet
-- Das Timeout erhöht sich automatisch bei wiederholten Neustarts, um langwierigen Aktionen Zeit zum Abschluss zu geben
-- Verhindert System-Hänger bei der Verarbeitung großer Dokumente
+Der Ablauf der Löschung von Patientendaten im Monitor wurde **angepasst und optimiert**.
 
-**Nutzen für Sie:**
-Mehr Stabilität und weniger manuelle Eingriffe – das System heilt sich selbst.
+Beim Initiieren einer Löschung wird nun ein Dialog mit **feingranularer Kontrolle** angezeigt. Sie können jetzt genau auswählen, welche Datensubsets entfernt werden sollen:
 
-**Vorher:**
-[missing: no previous state mentioned – system required manual restart when Base became unresponsive]
+- Dokumente
+- Verlaufsdaten (History)
+- Online-Daten
 
----
+Zusätzlich kann ein **Datumslimit** („Nur Daten bis einschließlich") angegeben werden.
 
-### 4. **E-Mail-Icon mit Dropdown für schnellere Vorlagenauswahl**
+Da diese Aktion destruktiv ist, erfordert das System eine **doppelte Bestätigung** und warnt explizit, dass **gelöschte Daten nicht wiederhergestellt werden können**. Falls kein Datum angegeben wird, werden alle Daten bis heute gelöscht.
 
-**Was ist neu:**
-- Das E-Mail-Icon verfügt nun über einen Dropdown-Pfeil
-- Sofortige Auswahl einer Vorlage möglich, bevor das Hauptfenster geöffnet wird
-- Verfügbar im Patientenmenü, in Dokumenten und in den Auswertungs-Cockpits
-
-**Nutzen für Sie:**
-Schnellerer Workflow bei der E-Mail-Erstellung durch direkten Zugriff auf Vorlagen.
-
-[missing: no previous state mentioned]
+Dies bietet deutlich mehr Kontrolle und Sicherheit bei der Datenverwaltung – gezieltes Löschen statt pauschaler Entfernung.
 
 ---
 
-### 5. **Granulare Kontrolle bei der Löschung von Patientendaten**
+### E-Mail-Icon mit Dropdown für schnellere Vorlagenauswahl
 
-**Was ist neu:**
-- Neuer Dialog mit feingranularer Kontrolle beim Löschen von Patientendaten
-- Auswahl, welche Datensubsets gelöscht werden sollen:
-  - Dokumente
-  - Verlaufsdaten (History)
-  - Online-Daten
-- Möglichkeit zur Angabe eines Datumslimits („Nur Daten bis einschließlich")
-- Doppelte Bestätigung erforderlich
-- Warnung, dass gelöschte Daten nicht wiederhergestellt werden können
+Für einen schnelleren Workflow wurde das **E-Mail-Icon mit einem Dropdown-Pfeil** ausgestattet.
 
-**Nutzen für Sie:**
-Mehr Kontrolle und Sicherheit bei der Datenverwaltung, gezieltes Löschen statt pauschaler Entfernung.
+Dadurch können Sie sofort eine Vorlage auswählen, bevor das Hauptfenster geöffnet wird. Diese Funktion ist verfügbar im:
 
-**Vorher:**
-[missing: no previous state mentioned – likely all patient data was deleted without granular selection]
+- Patientenmenü
+- Dokumentenbereich
+- Auswertungs-Cockpits
+
+So sparen Sie Zeit bei der E-Mail-Erstellung durch direkten Zugriff auf Ihre Vorlagen.
 
 ---
 
-### 6. **"Bitte warten…"-Anzeige bei längeren Ladezeiten**
+### Selbstüberwachung und automatischer Neustart für mehr Stabilität
 
-**Was ist neu:**
-- Bei längeren Ladezeiten (z.B. beim Öffnen von infoskop-Monitor oder ::LEA) erscheint eine „Bitte warten…"-Anzeige
-- Macht den Ladeprozess transparent
+Die **Starter.exe** wurde mit einer neuen Funktion ausgestattet: Sie **überwacht nun automatisch die Funktionsfähigkeit** der Base.
 
-**Nutzen für Sie:**
-Klarheit darüber, dass das System aktiv arbeitet – keine Unsicherheit mehr bei längeren Ladezeiten.
+Falls der Hauptdienst nicht mehr reagiert – beispielsweise während der Verarbeitung eines sehr großen Dokuments – startet der Starter den Dienst **selbstständig neu**.
 
-**Vorher:**
-[missing: no previous state mentioned – likely no loading indicator was shown]
+Das Timeout erhöht sich automatisch bei wiederholten Neustarts, sodass auch langwierige Aktionen eine Chance auf erfolgreichen Abschluss haben. Diese Funktion vermeidet Unterbrechungen und verhindert System-Hänger, wodurch manuelle Neustarts überflüssig werden.
+
+**Mehr Stabilität, weniger manuelle Eingriffe – das System heilt sich selbst.**
 
 ---
 
-## ✅ Verbesserungen und Fehlerbehebungen
+## Was gibt's sonst noch?
 
-### 7. **Korrekte E-Mail-Statusmeldungen**
+### Korrekte E-Mail-Statusmeldungen
 
-**Was wurde verbessert:**
-- E-Mails werden nicht mehr fälschlicherweise als „erfolgreich versendet" angezeigt, wenn die SMTP-Serverdaten fehlerhaft oder leer sind
-- Zuverlässigere Statusbenachrichtigungen
+Ein wichtiger Fehler wurde behoben: E-Mails werden nicht mehr fälschlicherweise als „erfolgreich versendet" angezeigt, wenn die **SMTP-Serverdaten fehlerhaft oder leer** sind.
 
-**Nutzen für Sie:**
-Sie erhalten keine falschen Erfolgsmeldungen mehr – Transparenz über den tatsächlichen Versandstatus.
-
-**Vorher:**
-System zeigte E-Mails als erfolgreich versendet an, selbst wenn SMTP-Server-Konfiguration fehlerhaft war (QS-227).
+Sie erhalten jetzt keine falschen Erfolgsmeldungen mehr und haben volle Transparenz über den tatsächlichen Versandstatus.
 
 ---
 
-### 8. **Links in E-Mails und Vorlagen öffnen sich jetzt korrekt**
+### Links in E-Mails und Vorlagen öffnen sich jetzt korrekt
 
-**Was wurde verbessert:**
-- Links in E-Mail-Texten, Vorlagentexten und im Formularlinkbaukasten öffnen sich nun im lokalen Browser
-- Im Formularlinkbaukasten muss der Link direkt angeklickt werden für eine Vorschau (kleine Verhaltensanpassung)
+Ein lange bestehendes Problem wurde gelöst: Links in E-Mail-Texten, Vorlagentexten sowie im **Formularlinkbaukasten** öffnen sich nun **im lokalen Browser**.
 
-**Nutzen für Sie:**
-Reibungslose Navigation zu verlinkten Inhalten ohne Fehlverhalten.
-
-**Vorher:**
-Links konnten nicht im lokalen Browser geöffnet werden – Funktion war blockiert (QS-177).
+Im Formularlinkbaukasten wurde das Verhalten leicht angepasst – Links müssen nun direkt angeklickt werden, um eine Vorschau zu erhalten.
 
 ---
 
-### 9. **Preisübernahme in Cockpits funktioniert mit Euro-Symbol**
+### Konsistente Deaktivierung der Onlinefunktion
 
-**Was wurde verbessert:**
-- Preisübernahme im PA-Cockpit und Bleaching-Cockpit funktioniert nun korrekt, auch wenn der Preis ein Euro-Zeichen (€) enthält
+Die Anzeigen und das Verhalten bei deaktivierter Onlinefunktion wurden optimiert.
 
-**Nutzen für Sie:**
-Zuverlässige Preisübernahme ohne manuelle Korrekturen.
+**Vorher:** Obwohl Onlinefunktionen deaktiviert waren, blieben bestimmte Menüeinträge zugänglich, und E-Mails konnten noch aus der Patientenakte oder über Hintergrundprozesse versendet werden.
 
-**Vorher:**
-Preisübernahme funktionierte nicht, wenn das Euro-Symbol (€) im Preis enthalten war (QS-97).
+**Jetzt:** Bei deaktivierter Onlinefunktion sind **alle zugehörigen Menüeinträge und E-Mail-Icons** in der gesamten Anwendung (einschließlich Patientenakte und Cockpits) **gesperrt, deaktiviert und ausgegraut**.
 
----
-
-### 10. **Vollständige Icons in den Cockpits**
-
-**Was wurde verbessert:**
-- Fehlende Icons im PA-Cockpit und Bleaching-Cockpit wurden ergänzt und aktualisiert
-
-**Nutzen für Sie:**
-Vollständige visuelle Darstellung für bessere Orientierung.
-
-**Vorher:**
-Icons waren im Auswertungsbereich der Cockpits unvollständig (QS-222).
+Dies sorgt für eine klare, systemweite Durchsetzung der Deaktivierung – keine unerwarteten Funktionen mehr.
 
 ---
 
-### 11. **Optimierte Gesamtbearbeitung in Warnungseinstellungen**
+### ::ORA-Antwortfunktion nur für lizenzierte Kunden
 
-**Was wurde verbessert:**
-- Verbessertes Anzeigeverhalten beim Umschalten zwischen „Warnungen", „Anamnese" und „Alle"
-- Optimierte Nutzung der „Alles Ja/Nein"-Option
+Die Lizenzabfrage für die **::ORA-Antwortfunktion** wurde behoben.
 
-**Nutzen für Sie:**
-Flüssigere Bearbeitung von Einstellungen, besonders bei Massenänderungen.
-
-**Vorher:**
-[missing: no previous state mentioned – likely display behavior was inconsistent during bulk edits]
+Die Funktion ist jetzt nur für ::ORA-Kunden aktiv. Für alle anderen Nutzer wurde die Anzeige angepasst und die Funktion deaktiviert – keine Verwirrung mehr durch Funktionen, die Sie nicht nutzen können.
 
 ---
 
-### 12. **Konsistente Deaktivierung der Onlinefunktion**
+### Preisübernahme in Cockpits funktioniert mit Euro-Symbol
 
-**Was wurde verbessert:**
-- Bei deaktivierter Onlinefunktion sind nun alle zugehörigen Menüeinträge und E-Mail-Icons gesperrt, deaktiviert und ausgegraut
-- Gilt für die gesamte Anwendung, einschließlich Patientenakte und Cockpits
-- Keine E-Mails mehr aus der Patientenakte oder über Hintergrundprozesse, wenn Onlinefunktion deaktiviert ist
+Ein Fehler wurde behoben, durch den die Preisübernahme im **PA-Cockpit und Bleaching-Cockpit** nicht korrekt funktionierte, wenn der Preis ein **Euro-Zeichen (€)** enthielt.
 
-**Nutzen für Sie:**
-Klare, systemweite Durchsetzung der Deaktivierung – keine unerwarteten Funktionen mehr.
-
-**Vorher:**
-Obwohl Onlinefunktionen deaktiviert waren, blieben bestimmte Menüeinträge zugänglich und E-Mails konnten noch versendet werden (QS-187).
+Die Preisübernahme läuft nun zuverlässig – unabhängig vom Vorhandensein des €-Symbols.
 
 ---
 
-### 13. **::ORA-Antwortfunktion nur für lizenzierte Kunden**
+### Vollständige Icons in den Cockpits
 
-**Was wurde verbessert:**
-- Lizenzabfrage für ::ORA-Antwortfunktion behoben
-- Funktion ist nur für ::ORA-Kunden aktiv
-- Für andere Nutzer wurde die Anzeige angepasst und die Funktion deaktiviert
-
-**Nutzen für Sie:**
-Keine Verwirrung durch Funktionen, die Sie nicht nutzen können.
-
-**Vorher:**
-::ORA-Lizenzabfrage funktionierte nicht korrekt, Funktion wurde auch Nicht-::ORA-Kunden angezeigt (INFO-1194).
+Fehlende Icons im PA-Cockpit und Bleaching-Cockpit wurden **ergänzt und aktualisiert**, sodass nun eine vollständige visuelle Darstellung für bessere Orientierung zur Verfügung steht.
 
 ---
 
-### 14. **Automatische Evident-Konfiguration (VDDS-stage1.exe)**
+### HL7-Server: Sanftes Schließen verhindert Netzwerkprobleme
 
-**Was wurde verbessert:**
-- Erweiterte Schnittstelle mit Evident Version 6 erkennt und konfiguriert sich nun automatisch korrekt
+HL7-Server werden nun **automatisch überwacht**. Beim Beenden des Base-Starters schließt der HL7-Server seinen Dienst **„sanft"**.
 
-**Nutzen für Sie:**
-Keine technische Supportintervention mehr erforderlich für die Konfiguration der Partnerverbindung.
+Dies verhindert Netzwerkprobleme und lange Timeouts, die zuvor auftraten, wenn der Server sich nicht ordnungsgemäß schloss.
 
-**Vorher:**
-Automatische Evident-Konfiguration wurde nicht korrekt erkannt, manuelle Konfiguration durch Support notwendig (QS-218).
+Das Ergebnis: **Stabilere HL7-Verbindungen ohne Wartezeiten und Verbindungsprobleme.**
 
 ---
 
-## 🔧 Technische Verbesserungen und Stabilität
+### 64-Bit und ARM-Unterstützung – Bonjour 32-Bit entfernt
 
-### 15. **HL7-Server: Sanftes Schließen verhindert Netzwerkprobleme**
+Um Performance und aktuelle Standards sicherzustellen, wurde die **Installationsdatei für Bonjour 32-Bit entfernt**.
 
-**Was wurde verbessert:**
-- HL7-Server werden automatisch überwacht
-- Beim Beenden des Base-Starters schließt der HL7-Server seinen Dienst „sanft"
-- Verhindert Netzwerkfehler und lange Timeouts
+Das Produkt unterstützt ab sofort **nur noch 64-Bit- und ARM-Systeme**.
 
-**Nutzen für Sie:**
-Stabilere HL7-Verbindungen ohne Wartezeiten und Verbindungsprobleme.
-
-**Vorher:**
-HL7-Server schloss sich nicht ordnungsgemäß, was zu Netzwerkfehlern mit langen Timeouts führte.
+Es gibt nun eine zweite 64-Bit Bonjour-Installationsdatei, die sowohl Intel- als auch ARM-Architekturen unterstützt. Beide Installer können parallel in beliebiger Reihenfolge installiert werden.
 
 ---
 
-### 16. **Verbesserte Logging-Funktionen (Starter.exe)**
+### Verbesserte Updater-Dienstverwaltung bei Mehrfachinstallationen
 
-**Was wurde verbessert:**
-- Starter protokolliert seine Versuche, die Base zu erreichen, im Fehlerfall in der report.dat
-- Informationen werden in den Logcheck übertragen
+Für Kunden mit **mehreren Standorten** ist es möglich und sinnvoll, auf einem Server mehrere Base-Instanzen zu installieren.
 
-**Nutzen für Sie:**
-Einfachere Fehleranalyse und schnellere Problemlösung durch bessere Protokollierung.
+Bei Installationen mit mehreren Bases auf einem Rechner wird der Standard-Dienstname **„infoskop-Base"** nun **nicht mehr automatisch vergeben**, um Konflikte zu vermeiden.
 
-**Vorher:**
-[missing: no previous state mentioned – likely no detailed logging of Base connection attempts]
+Der Updater kann nun **individuelle Dienstnamen** für Base (`/bname`) und MediaServer (`/mname`) übernehmen, um diese korrekt zu beenden und wieder zu starten.
+
+Dies ermöglicht eine konfliktfreie Installation mehrerer Base-Instanzen auf einem Rechner.
 
 ---
 
-### 17. **Proxy-Konfiguration für Signexport.exe**
+## Anpassungen und Bug-Fixes
 
-**Was wurde verbessert:**
+Es wurden Anpassungen/Fixes vorgenommen für:
+
+**infoskop-Base.exe**
+- Behebung eines Fehlers, wodurch E-Mails scheinbar erfolgreich versendet werden konnten, obwohl fehlerhafte Daten für den SMTP-Server hinterlegt waren (QS-227)
+
+**infoskop-Monitor**
+- Option hinzugefügt, durch die man nun die Größe von embedded Bildern in Mail- oder Vorlagentexten anpassen kann
+- Der Ablauf der Löschung von Patientendaten im Monitor wurde angepasst und optimiert
+- Behebung eines Fehlers, durch den es nicht möglich war, Links in Mail- oder Vorlagentexten sowie im Formularlinkbaukasten im lokalen Browser zu öffnen (QS-177)
+- Fehlende Icons für die Cockpits aktualisiert (QS-222)
+- Die Funktionsweise der Gesamtbearbeitung in den Warnungseinstellungen wurde optimiert
+- Die Anzeigen bei deaktivierter Onlinefunktion wurden angepasst (QS-187)
+- Lizenzabfrage der infoskop::ORA-Funktion behoben (INFO-1194)
+- Preisübernahme in PA- und Bleaching-Cockpit funktioniert nun auch mit Euro-Zeichen (QS-97)
+
+**infoskop::LEA**
+- Einbindung des neuen Webframes für den Client
+- Funktionen in der Base zur Verwaltung der Anfragen und Datenhaltung
+- Automatische Aktivierung der Lizenz bei korrekt hinterlegtem Leistungskatalog
+
+**Signexport.exe**
 - Option hinzugefügt, um einen Proxy zu konfigurieren
 
-**Nutzen für Sie:**
-Flexiblere Netzwerkkonfiguration in Umgebungen mit Proxy-Servern.
+**MediaServerStarter**
+- Optimierungen für die Installation als Dienst, behebt einen Fehler, bei dem installierte Dienstnamen korrupt und nicht für Windows leserlich waren (INFO-1157)
+- Der MediaServerStarter schreibt jetzt informativ seinen Dienstnamen in die Base-config bei abweichenden Installationsnamen
 
-**Vorher:**
-[missing: no previous state mentioned – likely no proxy configuration was possible]
+**VDDS-stage1.exe**
+- Behebung eines Fehlers, welcher die automatische Evident-Konfiguration nicht richtig erkannt hat (QS-218)
 
----
+**Starter.exe**
+- Option hinzugefügt, die automatisch die Funktionalität des TCP-Socketservers der infoskop-Base.exe überwacht und nach einem Timeout einen Neustart der Anwendung auslöst (INFO-1187)
+- Der Starter schreibt jetzt informativ seine Dienstnamen in die Base-config bei abweichenden Installationsnamen
+- Der Starter dokumentiert seine Versuche, die Base zu erreichen im Fehlerfall in der report.dat. Der Inhalt wird auch in den Logcheck übertragen
+- Optimierungen für die Installation als Dienst, behebt einen Fehler, bei dem installierte Dienstnamen korrupt und nicht für Windows leserlich waren (INFO-1156)
+- Automatisches Überwachen von HL7-Servern. Ermöglicht „sanftes Beenden" des HL7-Servers, wenn der Base-Starter beendet wird
 
-### 18. **Optimierte Dienst-Installation (MediaServerStarter)**
+**HL7-Server**
+- Ermöglicht nun sanftes Schließen des Socket-Servers
 
-**Was wurde verbessert:**
-- Fehler behoben, der zu unleserlichen Dienstnamen unter Windows führte
-- MediaServerStarter speichert Dienstnamen in der Base-Config für eindeutige Zuordnung bei Mehrfachinstallationen
+**infoskop-Client.exe**
+- Unterstützung für infoskop::LEA
+- Für die verzögerte Anzeige der Webframes (infoskop-Monitor und infoskop::LEA) wurde eine „Bitte warten …" Anzeige bereitgestellt (INFO-1196)
+- Behebung eines Fehlers, wodurch es sein konnte, dass bei Z1 zu viele gleichartige Splash-Anzeigen geladen wurden. Nur noch eine Anzeige pro Ausführung ist möglich (QS-193)
 
-**Nutzen für Sie:**
-Klarere Systemverwaltung, besonders bei komplexeren Installationen.
-
-**Vorher:**
-Installierte Dienstnamen waren korrupt und nicht für Windows leserlich (INFO-1157).
-
----
-
-### 19. **Optimierte Dienst-Installation (Starter.exe)**
-
-**Was wurde verbessert:**
-- Fehler behoben, der zu unleserlichen Dienstnamen unter Windows führte
-- Starter speichert Dienstnamen in der Base-Config (Server/bname, Server/mname) für eindeutige Zuordnung
-
-**Nutzen für Sie:**
-Stabilere Installation und bessere Verwaltbarkeit bei mehreren Base-Instanzen.
-
-**Vorher:**
-Installierte Dienstnamen waren korrupt und nicht für Windows leserlich (INFO-1156).
-
----
-
-### 20. **Nur noch eine Splash-Anzeige pro Ausführung**
-
-**Was wurde verbessert:**
-- Problem behoben, bei dem in Z1 mehrere gleichartige Splash-Anzeigen gleichzeitig geladen werden konnten
-- Nur noch eine Anzeige pro Ausführung
-
-**Nutzen für Sie:**
-Aufgeräumtere Benutzeroberfläche beim Systemstart.
-
-**Vorher:**
-Mehrere identische Update-Screens (Splash Screens) konnten gleichzeitig erscheinen (QS-193).
-
----
-
-## 🖥️ System- und Installationsanpassungen
-
-### 21. **64-Bit und ARM-Unterstützung – Bonjour 32-Bit entfernt**
-
-**Was wurde geändert:**
-- Installationsdatei für Bonjour 32-Bit wurde entfernt
-- Produkt unterstützt ab sofort nur noch 64-Bit- und ARM-Systeme
-- Zweite 64-Bit Bonjour-Installationsdatei verfügbar, die sowohl Intel- als auch ARM-Architekturen unterstützt
-- Beide Installer können parallel in beliebiger Reihenfolge installiert werden
-
-**Nutzen für Sie:**
-Modernere Systemunterstützung und bessere Performance auf aktuellen Systemen.
-
-**Vorher:**
-32-Bit Bonjour wurde unterstützt (INFO-1188).
-
----
-
-### 22. **Verbesserte Updater-Dienstverwaltung bei Mehrfachinstallationen**
-
-**Was wurde geändert:**
-- Standard-Dienstname „infoskop-Base" wird bei Mehrfachinstallationen nicht mehr automatisch vergeben
-- Updater kann individuelle Dienstnamen für Base (/bname) und MediaServer (/mname) übernehmen
-- Korrekte Beendigung und Neustart von Diensten mit abweichenden Namen
-
-**Nutzen für Sie:**
-Konfliktfreie Installation mehrerer Base-Instanzen auf einem Rechner.
-
-**Vorher:**
-[missing: no previous state mentioned – likely conflicts occurred with multiple Base installations using the same default service name]
-
----
-
-## 📋 Zusammenfassung
-
-**Infoskop Base 5.0** bringt bedeutende Verbesserungen in drei Hauptbereichen:
-
-1. **Neue Funktionen**: ::LEA-Integration, flexible Bildbearbeitung, selbstheilendes System
-2. **Verbesserte Zuverlässigkeit**: Korrekte E-Mail-Statusmeldungen, funktionierende Links, konsistente Deaktivierung von Funktionen
-3. **Erhöhte Stabilität**: Automatische Überwachung, sanftes Schließen von Servern, verbesserte Protokollierung
-
-Das Update konzentriert sich auf Effizienz, Kontrolle und Verlässlichkeit – für einen reibungsloseren Arbeitsalltag.
-
----
-
-**Stand:** November 2025
-**Version:** Infoskop Base 5.0.0
-**Quelle:** Vorläufige Release Notes (interner Gebrauch)
+**infoskop-Base-Updater und infoskop-Base-Setup**
+- Die Installationsdatei für Bonjour 32bit wurde entfernt. Das Produkt unterstützt ab sofort nur noch 64-Bit- und ARM-Systeme (INFO-1188)
+- Es gibt nun eine zweite Installationsdatei für Bonjour 64bit, die beide Architekturen (Intel und ARM) unterstützt
+- Der Dienst Default-Name „infoskop-Base" wird jetzt nur noch angenommen, wenn dem Updater NICHT das /MULTIPLEBASES Flag mitgegeben wurde
+- Dem Updater können jetzt über /bname (Base) und /mname (MediaServer) die Dienst-Namen mitgegeben werden

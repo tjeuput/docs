@@ -5,155 +5,193 @@ Das neue Update 5.0 wird [TT.MM.JJJJ] veröffentlicht und im iMonitor zur Verfü
 
 Wir arbeiten auf Hochtouren, auch den Newsletter, "What's New Screen" sowie Change Log für iMs im Portal bereitzustellen.
 
+## Endlich da – Ihr infoskop wird noch besser!
+
+Im Hauptmeeting im September 2025 konnten wir Euch bereits erste spannende Einblicke in die kommenden Neuerungen geben. Jetzt ist es soweit: **infoskop Base 5.0 und der infoskop-Monitor** sind bereit für Euch – mit durchdachten Verbesserungen, die Euren Praxisalltag spürbar erleichtern.
+
+**Das Highlight:** Mit **infoskop::LEA** steht Euch ab sofort unser neues Modul zur **Leistungserfassung** zur Verfügung – direkt in Eure infoskop-Umgebung integriert.
+
+Aber das ist längst nicht alles: Wir haben zahlreiche Funktionen in **infoskop-Base** und **infoskop-Monitor** optimiert – von der Bildbearbeitung in E-Mails über präzisere Patientendatenverwaltung bis hin zu intelligenteren Systemabläufen.
+
+**Was das für Euch bedeutet?**
+Weniger Klicks, weniger Fehlerquellen, mehr Kontrolle – und vor allem: **mehr Zeit für Eure Patienten**. Die Systeme arbeiten nun noch zuverlässiger im Hintergrund, E-Mail-Workflows sind schneller, und die Benutzeroberfläche reagiert intuitiver auf Eure täglichen Anforderungen.
+
+---
+
 ## Was gibt es Neues?
 
-### ::LEA – Neues Produkt für Leistungserfassung
+### infoskop::LEA – Unser neues Modul für die Leistungserfassung
 
-Mit infoskop::LEA steht ab sofort ein komplett neues Produkt zur Verfügung: die **Leistungserfassung**.
+Ab sofort steht Euch **infoskop::LEA** zur Verfügung – ein komplett neues Modul innerhalb der infoskop-Produktfamilie, das speziell für die **Erfassung erbrachter Leistungen in Eurer Zahnarztpraxis** entwickelt wurde.
 
-Die Lizenzierung für ::LEA erfolgt automatisch, sobald die Einrichtung korrekt abgeschlossen ist. Das neue Tool ist vollständig in den infoskop-Client integriert und ermöglicht eine vereinfachte Erfassung und Verwaltung von Leistungen direkt im System.
+**Was macht ::LEA für Euch?**
+Alle in der Behandlung erbrachten Leistungen können direkt, schnell und übersichtlich dokumentiert werden – ohne Medienbrüche, ohne Doppeleingaben. Das Modul ist nahtlos in den **infoskop-Client** eingebunden und arbeitet Hand in Hand mit Euren bestehenden Workflows.
 
-Bei längeren Ladezeiten der Webframes – etwa beim Öffnen des infoskop-Monitors oder ::LEA – erhalten Nutzer nun eine **„Bitte warten …"-Anzeige**, die den Prozess transparent macht und sicherstellt, dass das System aktiv arbeitet.
+**Lizenzierung ganz einfach:**
+Sobald Ihr ::LEA korrekt eingerichtet habt, aktiviert sich die Lizenz automatisch – Ihr müsst Euch um nichts kümmern.
 
----
-
-### Flexible Bildanpassung in E-Mails und Vorlagen
-
-Die Arbeit mit Bildern in E-Mail- und Vorlagentexten wurde deutlich verbessert.
-
-Anwender können nun **die Größe eingebetteter Bilder flexibel anpassen** – wahlweise per Drag & Drop, durch Auswahl voreingestellter Größen (50px, 75px, Originalgröße) oder durch Eingabe benutzerdefinierter Dimensionen.
-
-Zusätzlich können **Links an Bildern einfach hinzugefügt, bearbeitet und entfernt werden**.
-
-Dies ermöglicht eine deutlich bessere Gestaltung von E-Mail- und Vorlagentexten mit mehr Kontrolle über das Layout.
+**Noch ein Plus:**
+Beim Öffnen des infoskop-Monitors oder ::LEA erscheint bei längeren Ladezeiten nun eine **„Bitte warten …"-Anzeige**. So wisst Ihr jederzeit, dass das System im Hintergrund arbeitet – kein unnötiges Rätselraten mehr.
 
 ---
 
-### Granulare Kontrolle bei der Löschung von Patientendaten
+### Bilder in E-Mails und Vorlagen – jetzt noch einfacher gestalten
 
-Der Ablauf der Löschung von Patientendaten im Monitor wurde **angepasst und optimiert**.
+Ihr versendet häufig E-Mails mit Bildern – etwa Praxislogos, Behandlungsfotos oder Infografiken? Dann werdet Ihr die neuen Möglichkeiten lieben:
 
-Beim Initiieren einer Löschung wird nun ein Dialog mit **feingranularer Kontrolle** angezeigt. Sie können jetzt genau auswählen, welche Datensubsets entfernt werden sollen:
+**Die Größe eingebetteter Bilder** lässt sich jetzt **flexibel anpassen** – ganz einfach per **Drag & Drop**, durch Auswahl voreingestellter Größen (50px, 75px, Originalgröße) oder durch Eingabe individueller Maße.
+
+Zusätzlich könnt Ihr **Links direkt an Bildern hinterlegen, bearbeiten oder entfernen** – perfekt, wenn Ihr beispielsweise auf Online-Formulare, Eure Website oder spezielle Infoseiten verweisen möchtet.
+
+**Was das für Euch bedeutet:**
+Professionellere E-Mails und Vorlagen in wenigen Sekunden – ohne externe Bildbearbeitungsprogramme. Mehr Gestaltungsfreiheit, weniger Aufwand.
+
+---
+
+### Patientendaten gezielt löschen – mit voller Kontrolle
+
+DSGVO-konforme Datenverwaltung ist wichtig – und manchmal müssen Patientendaten gelöscht werden. Genau hier habt Ihr jetzt **deutlich mehr Kontrolle**:
+
+Beim Löschen öffnet sich ein **neuer Dialog**, in dem Ihr ganz präzise festlegen könnt, **welche Daten genau entfernt** werden sollen:
 
 - Dokumente
 - Verlaufsdaten (History)
 - Online-Daten
 
-Zusätzlich kann ein **Datumslimit** („Nur Daten bis einschließlich") angegeben werden.
+Ihr könnt sogar ein **Datumslimit** setzen („Nur Daten bis einschließlich [Datum]"), um beispielsweise nur ältere Daten zu entfernen, während aktuelle Informationen erhalten bleiben.
 
-Da diese Aktion destruktiv ist, erfordert das System eine **doppelte Bestätigung** und warnt explizit, dass **gelöschte Daten nicht wiederhergestellt werden können**. Falls kein Datum angegeben wird, werden alle Daten bis heute gelöscht.
+**Sicherheit geht vor:**
+Da gelöschte Daten nicht wiederhergestellt werden können, fordert das System eine **doppelte Bestätigung** und warnt Euch ausdrücklich vor dem endgültigen Löschen. Falls kein Datum angegeben wird, werden alle Daten bis heute entfernt.
 
-Dies bietet deutlich mehr Kontrolle und Sicherheit bei der Datenverwaltung – gezieltes Löschen statt pauschaler Entfernung.
+**Was das für Euch bedeutet:**
+Kein versehentliches Löschen wichtiger Informationen mehr – Ihr habt jetzt die volle Kontrolle und könnt gezielt aufräumen, ohne wichtige Daten zu verlieren.
 
 ---
 
-### E-Mail-Icon mit Dropdown für schnellere Vorlagenauswahl
+### E-Mails noch schneller versenden – dank Vorlagen-Dropdown
 
-Für einen schnelleren Workflow wurde das **E-Mail-Icon mit einem Dropdown-Pfeil** ausgestattet.
+Kennt Ihr das? Ihr möchtet schnell eine E-Mail an einen Patienten senden, wisst schon genau, welche Vorlage Ihr braucht – und müsst trotzdem erst das E-Mail-Fenster öffnen, um die Vorlage auszuwählen?
 
-Dadurch können Sie sofort eine Vorlage auswählen, bevor das Hauptfenster geöffnet wird. Diese Funktion ist verfügbar im:
+**Das ist jetzt Geschichte:** Das **E-Mail-Icon** hat einen **Dropdown-Pfeil** bekommen. Ein Klick darauf – und Ihr könnt **direkt die gewünschte Vorlage auswählen**, bevor das Hauptfenster überhaupt aufgeht.
+
+Diese praktische Funktion steht Euch zur Verfügung im:
 
 - Patientenmenü
 - Dokumentenbereich
 - Auswertungs-Cockpits
 
-So sparen Sie Zeit bei der E-Mail-Erstellung durch direkten Zugriff auf Ihre Vorlagen.
+**Was das für Euch bedeutet:**
+Ein Klick weniger, weniger Wartezeit – und Ihr seid **schneller fertig mit der E-Mail-Erstellung**. Besonders praktisch im hektischen Praxisalltag!
 
 ---
 
-### Selbstüberwachung und automatischer Neustart für mehr Stabilität
+### Das System kümmert sich selbst – automatische Stabilität im Hintergrund
 
-Die **Starter.exe** wurde mit einer neuen Funktion ausgestattet: Sie **überwacht nun automatisch die Funktionsfähigkeit** der Base.
+Wir alle kennen es: Manchmal hängt sich ein Programm auf – meist dann, wenn man es gerade eilig hat. Genau dafür haben wir vorgesorgt:
 
-Falls der Hauptdienst nicht mehr reagiert – beispielsweise während der Verarbeitung eines sehr großen Dokuments – startet der Starter den Dienst **selbstständig neu**.
+Die **infoskop-Base** überwacht sich ab sofort **selbst**. Falls der Hauptdienst nicht mehr reagiert – etwa während der Verarbeitung eines besonders großen Dokuments – startet sich das System **automatisch und selbstständig neu**.
 
-Das Timeout erhöht sich automatisch bei wiederholten Neustarts, sodass auch langwierige Aktionen eine Chance auf erfolgreichen Abschluss haben. Diese Funktion vermeidet Unterbrechungen und verhindert System-Hänger, wodurch manuelle Neustarts überflüssig werden.
+Und das Beste: Das System lernt mit. Bei wiederholten Neustarts erhöht sich das Timeout automatisch, sodass auch langwierige Aktionen (z. B. große PDF-Importe) eine Chance auf erfolgreichen Abschluss haben.
 
-**Mehr Stabilität, weniger manuelle Eingriffe – das System heilt sich selbst.**
+**Was das für Euch bedeutet:**
+Keine Anrufe mehr an den Support mit der Bitte um einen Neustart. Keine Unterbrechungen im Praxisablauf. **Das System heilt sich selbst** – Ihr könnt einfach weiterarbeiten. Mehr Stabilität, weniger Stress.
 
 ---
 
 ## Was gibt's sonst noch?
 
-### Korrekte E-Mail-Statusmeldungen
+### E-Mail-Statusmeldungen – endlich verlässlich
 
-Ein wichtiger Fehler wurde behoben: E-Mails werden nicht mehr fälschlicherweise als „erfolgreich versendet" angezeigt, wenn die **SMTP-Serverdaten fehlerhaft oder leer** sind.
+Habt Ihr schon mal eine E-Mail versendet und eine Erfolgsmeldung bekommen – nur um später festzustellen, dass die E-Mail nie ankam? Dieser ärgerliche Fehler ist behoben:
 
-Sie erhalten jetzt keine falschen Erfolgsmeldungen mehr und haben volle Transparenz über den tatsächlichen Versandstatus.
+Ab sofort werden E-Mails **nur dann als „erfolgreich versendet" angezeigt, wenn die SMTP-Serverdaten auch wirklich korrekt** sind. Keine falschen Erfolgsmeldungen mehr, keine bösen Überraschungen.
 
----
-
-### Links in E-Mails und Vorlagen öffnen sich jetzt korrekt
-
-Ein lange bestehendes Problem wurde gelöst: Links in E-Mail-Texten, Vorlagentexten sowie im **Formularlinkbaukasten** öffnen sich nun **im lokalen Browser**.
-
-Im Formularlinkbaukasten wurde das Verhalten leicht angepasst – Links müssen nun direkt angeklickt werden, um eine Vorschau zu erhalten.
+**Was das für Euch bedeutet:**
+Volle Transparenz und Verlässlichkeit beim E-Mail-Versand. Wenn „erfolgreich versendet" angezeigt wird, könnt Ihr Euch darauf verlassen.
 
 ---
 
-### Konsistente Deaktivierung der Onlinefunktion
+### Links in E-Mails funktionieren jetzt einwandfrei
 
-Die Anzeigen und das Verhalten bei deaktivierter Onlinefunktion wurden optimiert.
+Ein lange bestehendes Problem ist endlich gelöst: Links in E-Mail-Texten, Vorlagentexten und im **Formularlinkbaukasten** öffnen sich jetzt **problemlos im lokalen Browser**.
 
-**Vorher:** Obwohl Onlinefunktionen deaktiviert waren, blieben bestimmte Menüeinträge zugänglich, und E-Mails konnten noch aus der Patientenakte oder über Hintergrundprozesse versendet werden.
+**Kleiner Hinweis zum Formularlinkbaukasten:** Links müssen nun direkt angeklickt werden, um eine Vorschau zu erhalten – ein bewusster Schritt für mehr Kontrolle.
 
-**Jetzt:** Bei deaktivierter Onlinefunktion sind **alle zugehörigen Menüeinträge und E-Mail-Icons** in der gesamten Anwendung (einschließlich Patientenakte und Cockpits) **gesperrt, deaktiviert und ausgegraut**.
-
-Dies sorgt für eine klare, systemweite Durchsetzung der Deaktivierung – keine unerwarteten Funktionen mehr.
-
----
-
-### ::ORA-Antwortfunktion nur für lizenzierte Kunden
-
-Die Lizenzabfrage für die **::ORA-Antwortfunktion** wurde behoben.
-
-Die Funktion ist jetzt nur für ::ORA-Kunden aktiv. Für alle anderen Nutzer wurde die Anzeige angepasst und die Funktion deaktiviert – keine Verwirrung mehr durch Funktionen, die Sie nicht nutzen können.
+**Was das für Euch bedeutet:**
+Reibungslose Navigation, keine blockierten Links mehr – und Eure Patienten erreichen Online-Formulare und andere verlinkte Inhalte ohne Probleme.
 
 ---
 
-### Preisübernahme in Cockpits funktioniert mit Euro-Symbol
+### Onlinefunktion deaktiviert? Jetzt wirklich überall!
 
-Ein Fehler wurde behoben, durch den die Preisübernahme im **PA-Cockpit und Bleaching-Cockpit** nicht korrekt funktionierte, wenn der Preis ein **Euro-Zeichen (€)** enthielt.
+Wenn Ihr die Onlinefunktion bewusst deaktiviert, soll sie auch **wirklich deaktiviert** sein, oder? Genau das ist jetzt garantiert.
 
-Die Preisübernahme läuft nun zuverlässig – unabhängig vom Vorhandensein des €-Symbols.
+**Vorher:** Auch bei deaktivierter Onlinefunktion waren manche Menüeinträge noch zugänglich, und E-Mails konnten versehentlich versendet werden.
+
+**Jetzt:** Sobald die Onlinefunktion deaktiviert ist, sind **alle zugehörigen Menüeinträge und E-Mail-Icons** in der gesamten Anwendung (Patientenakte, Cockpits usw.) **gesperrt, deaktiviert und ausgegraut**.
+
+**Was das für Euch bedeutet:**
+Klare Verhältnisse, keine Verwirrung – wenn deaktiviert, dann wirklich überall deaktiviert. So habt Ihr die volle Kontrolle.
+
+---
+
+### ::ORA-Antwortfunktion – nur für die, die sie auch nutzen
+
+Ein kleiner, aber wichtiger Fix: Die **::ORA-Antwortfunktion** wird jetzt nur noch bei Kunden angezeigt, die ::ORA auch tatsächlich lizenziert haben.
+
+**Was das für Euch bedeutet:**
+Keine Verwirrung mehr durch Funktionen, die Ihr gar nicht nutzen könnt. Die Oberfläche zeigt nur das, was für Euch relevant ist.
+
+---
+
+### Preisübernahme in den Cockpits – jetzt auch mit €-Zeichen
+
+Ihr nutzt das PA-Cockpit oder Bleaching-Cockpit? Dann ist Euch vielleicht aufgefallen, dass die Preisübernahme manchmal nicht funktionierte, wenn ein **Euro-Symbol (€)** im Preis stand.
+
+Dieser Fehler ist behoben – die Preisübernahme läuft nun **zuverlässig, egal ob mit oder ohne €-Zeichen**.
+
+**Was das für Euch bedeutet:**
+Schnellere Arbeit in den Cockpits, keine manuellen Korrekturen mehr nötig.
 
 ---
 
 ### Vollständige Icons in den Cockpits
 
-Fehlende Icons im PA-Cockpit und Bleaching-Cockpit wurden **ergänzt und aktualisiert**, sodass nun eine vollständige visuelle Darstellung für bessere Orientierung zur Verfügung steht.
+Kleine Details, große Wirkung: Die fehlenden Icons im **PA-Cockpit und Bleaching-Cockpit** sind jetzt da – vollständig und aktualisiert.
+
+**Was das für Euch bedeutet:**
+Bessere Orientierung auf einen Blick, professionellere Darstellung.
 
 ---
 
-### HL7-Server: Sanftes Schließen verhindert Netzwerkprobleme
+### HL7-Schnittstelle: Stabile Verbindungen, keine Wartezeiten
 
-HL7-Server werden nun **automatisch überwacht**. Beim Beenden des Base-Starters schließt der HL7-Server seinen Dienst **„sanft"**.
+Für Praxen, die eine **HL7-Schnittstelle** nutzen (z. B. zur Anbindung an Praxisverwaltungssysteme): Der HL7-Server wird jetzt automatisch überwacht und schließt sich „sanft", wenn der Base-Starter beendet wird.
 
-Dies verhindert Netzwerkprobleme und lange Timeouts, die zuvor auftraten, wenn der Server sich nicht ordnungsgemäß schloss.
-
-Das Ergebnis: **Stabilere HL7-Verbindungen ohne Wartezeiten und Verbindungsprobleme.**
-
----
-
-### 64-Bit und ARM-Unterstützung – Bonjour 32-Bit entfernt
-
-Um Performance und aktuelle Standards sicherzustellen, wurde die **Installationsdatei für Bonjour 32-Bit entfernt**.
-
-Das Produkt unterstützt ab sofort **nur noch 64-Bit- und ARM-Systeme**.
-
-Es gibt nun eine zweite 64-Bit Bonjour-Installationsdatei, die sowohl Intel- als auch ARM-Architekturen unterstützt. Beide Installer können parallel in beliebiger Reihenfolge installiert werden.
+**Was das für Euch bedeutet:**
+Keine Netzwerkprobleme mehr, keine langen Timeouts – **stabilere Verbindungen und reibungslosere Abläufe**.
 
 ---
 
-### Verbesserte Updater-Dienstverwaltung bei Mehrfachinstallationen
+### Moderne Systemarchitektur – 64-Bit und ARM im Fokus
 
-Für Kunden mit **mehreren Standorten** ist es möglich und sinnvoll, auf einem Server mehrere Base-Instanzen zu installieren.
+Um Performance und aktuelle Standards zu gewährleisten, haben wir die **32-Bit-Unterstützung für Bonjour** eingestellt. infoskop unterstützt ab sofort **nur noch 64-Bit- und ARM-Systeme**.
 
-Bei Installationen mit mehreren Bases auf einem Rechner wird der Standard-Dienstname **„infoskop-Base"** nun **nicht mehr automatisch vergeben**, um Konflikte zu vermeiden.
+**Für Euch bedeutet das:**
+Bessere Performance auf modernen Rechnern – und zukunftssichere Technologie.
 
-Der Updater kann nun **individuelle Dienstnamen** für Base (`/bname`) und MediaServer (`/mname`) übernehmen, um diese korrekt zu beenden und wieder zu starten.
+**Technischer Hinweis:** Es gibt nun eine zweite 64-Bit Bonjour-Installationsdatei, die sowohl Intel- als auch ARM-Architekturen unterstützt. Beide Installer können problemlos parallel installiert werden.
 
-Dies ermöglicht eine konfliktfreie Installation mehrerer Base-Instanzen auf einem Rechner.
+---
+
+### Mehrfachinstallationen – jetzt noch reibungsloser
+
+Für Praxen mit **mehreren Standorten** oder **mehreren Base-Instanzen auf einem Server**: Der Updater wurde weiterentwickelt und kann jetzt individuelle Dienstnamen verwalten.
+
+Der Standard-Dienstname **„infoskop-Base"** wird bei Mehrfachinstallationen nicht mehr automatisch vergeben, um Konflikte zu vermeiden. Stattdessen können individuelle Namen für Base (`/bname`) und MediaServer (`/mname`) vergeben werden.
+
+**Was das für Euch bedeutet:**
+Konfliktfreie Installation und reibungslose Updates – auch bei komplexeren IT-Umgebungen.
 
 ---
 
